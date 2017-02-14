@@ -68,12 +68,11 @@ nav {
     list-style: none;
     display: none;
     flex: 1;
-    min-height: 0rem;
+    min-height: 2.25rem;
     position: absolute;
     background: #007eb6;
     z-index: 1000;
-    width: 100%;
-    transition: background 2s; }
+    width: 100%; }
     @media screen and (min-width: 46.25em) {
       nav ul {
         display: flex;
@@ -107,7 +106,6 @@ nav {
 
 .show #main ul {
   display: block !important;
-  min-height: 2.25rem;
-  transition: min-height 1s; }
+  max-height: 30rem; }
 
 /*# sourceMappingURL=styles.css.map */
